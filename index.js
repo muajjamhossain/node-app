@@ -42,7 +42,6 @@ app.handleReqRes = (req, res) => {
         res.end('hello world');
     });
 
-    // response
     // res.end('hello world');
 };
 
