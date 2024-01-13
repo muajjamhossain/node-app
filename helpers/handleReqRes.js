@@ -18,6 +18,7 @@ handler.handleReqRes = (req, res) => {
     req.on('end', () => {
         realData += decoder.end();
         console.log(realData);
+        // response handle
         res.end('hello world');
     });
 
