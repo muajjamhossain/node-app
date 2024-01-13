@@ -7,7 +7,8 @@
     "nodemon": "^3.0.2"
   },
   "scripts": {
-    "start": "nodemon index",
+    "production": "SET NODE_ENV=production & nodemon index",
+    "start": "SET NODE_ENV=development & nodemon index",
     "test": "echo *Error: no test spwcified* && exit"
   },
   "keywords": [],
